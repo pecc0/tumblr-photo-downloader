@@ -72,7 +72,7 @@ loop do
   if images.count < num
     puts "Our work here is done"
     break
-  elsif already_had == num
+  elsif false #already_had == num
     puts "Had already downloaded the last #{already_had} of #{num} most recent images - done."
     break
   else
